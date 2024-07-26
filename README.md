@@ -1,4 +1,4 @@
-# true-neutral-cookiecutter
+# ML-cookiecutter
 
 A minimalist cookiecutter for ML research. Slightly modified from `patrickmineault/true-neutral-cookiecutter` for my personal taste.
 
