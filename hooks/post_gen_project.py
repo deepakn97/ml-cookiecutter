@@ -38,8 +38,10 @@ The .gitignore contains a basic python gitignore. You will have to add data/ and
 
 Don't forget to push the repository to GitHub. 
 
-git remote add origin git@github.com:deepakn97/ml-cookiecutter.git
-git branch -M main
+git init
+git remote add origin git@github.com:deepakn97/{{cookiecutter.repo_name}}.git
+git add .
+git commit -m "initial commit"
 git push -u origin main
 
 Have fun!
