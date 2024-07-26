@@ -34,9 +34,14 @@ Install your new project in your local conda environment with:
 
 pip install -e .
 
-You will need to manually add data to .gitignore to prevent it from syncing to
-version control.
+The .gitignore contains a basic python gitignore. You will have to add data/ and models/ to .gitignore manually.
 
-Don't forget to sync to GitHub. Have fun!
+Don't forget to push the repository to GitHub. 
+
+git remote add origin git@github.com:deepakn97/ml-cookiecutter.git
+git branch -M main
+git push -u origin main
+
+Have fun!
 """
 print(help)

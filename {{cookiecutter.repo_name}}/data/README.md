@@ -1,3 +1,3 @@
 # Data
 
-Put your data here. By default, this folder won't be put into version control.
+Put your data here. By default, this folder is not included in version control.
